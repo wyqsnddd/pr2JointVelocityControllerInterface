@@ -1,0 +1,17 @@
+pr2JointVelocityControllerInterface:  
+  lPid0: {p: 18.0, i: 4.67, d: 0.0, i_clamp: 100.0}
+  lPid1: {p: 10.0, i: 5.67, d: 0.0, i_clamp: 100.0}
+  lPid2: {p: 6.0, i: 42.9, d: 0.0,  i_clamp: 100.0}
+  lPid3: {p: 4.0,  i: 20.0, d: 0.0,  i_clamp: 100.0}
+  lPid4: {p: 6.0,  i: 15.0, d: 0.0,  i_clamp: 100.0}
+  lPid5: {p: 4.0,  i: 25.0, d: 0.0,  i_clamp: 100.0}
+  lPid6: {p: 4.0,  i: 25.0, d: 0.0,  i_clamp: 100.0}
+
+  rPid0: {p: 18.0, i: 4.67, d: 0.0, i_clamp: 100.0}
+  rPid1: {p: 10.0, i: 5.67, d: 0.0, i_clamp: 100.0}
+  rPid2: {p: 6.0, i: 42.9, d: 0.0,  i_clamp: 100.0}
+  rPid3: {p: 4.0,  i: 20.0, d: 0.0,  i_clamp: 100.0}
+  rPid4: {p: 6.0,  i: 15.0, d: 0.0,  i_clamp: 100.0}
+  rPid5: {p: 4.0,  i: 25.0, d: 0.0,  i_clamp: 100.0}
+  rPid6: {p: 4.0,  i: 25.0, d: 0.0,  i_clamp: 100.0}
+ 

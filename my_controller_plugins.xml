@@ -1,0 +1,13 @@
+<library path="ros/lib/libpr2JointVelocityControllerInterface">
+  
+  <class name="pr2JointVelocityControllerInterface"
+  	 type="pr2JointVelocityControllerInterface"
+  	 base_class_type="pr2_controller_interface::Controller">
+
+    <description>
+    	aim to provide an ros/topic based interface to control the individual joint velocity of the robot.
+    </description>
+
+  </class>
+
+</library>

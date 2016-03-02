@@ -1,0 +1,10 @@
+pr2JointVelocityControllerInterface:
+  type: pr2JointVelocityControllerInterface 
+  timeThreshold: 0.1
+  jointLowerLeft:  [-0.5646,  -0.3536,  -0.65,   -2.1213,  -6.28319,   -1.994,  -6.28319]
+  jointLowerRight: [-2.1353981634,  -0.3536,  -3.75,   -2.1213,  -6.28319,   -1.994,  -6.28319]
+  jointUpperLeft:  [2.1353,   1.2963,   3.75,   -0.15,   6.28319,   -0.1, 6.28319] 
+  jointUpperRight: [0.564601836603,   1.2963,   0.65,   -0.15,   6.28319,   -0.1,   6.28319]
+  jointVLimits: [2.088,   2.082,   3.2700,   3.3000,   3.6000,   3.078,   3.6000]
+  leftArmJoints: [ l_shoulder_pan_joint_velocity, l_shoulder_lift_joint_velocity, l_upper_arm_roll_joint_velocity, l_elbow_flex_joint_velocity, l_fore_arm_roll_joint_velocity, l_wrist_flex_joint_velocity, l_wrist_roll_joint_velocity ]
+  rightArmJoints: [ r_shoulder_pan_joint_velocity, r_shoulder_lift_joint_velocity, r_upper_arm_roll_joint_velocity, r_elbow_flex_joint_velocity, r_fore_arm_roll_joint_velocity, r_wrist_flex_joint_velocity, r_wrist_roll_joint_velocity ]

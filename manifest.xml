@@ -1,0 +1,29 @@
+<package>
+  <description brief="pr2JointVelocityControllerInterface">
+
+     pr2JointVelocityControllerInterface
+
+  </description>
+  <author>yuquan</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pr2JointVelocityControllerInterface</url>
+  <depend package="pr2_controller_interface"/>
+  <depend package="robot_mechanism_controllers"/>
+  <depend package="pr2_mechanism_controllers"/>
+ 
+  <depend package="pr2_mechanism_model"/>
+  <depend package="pluginlib"/>
+  <depend package="realtime_tools"/>
+  <depend package="control_toolbox"/>
+
+  <depend package="roslib"/> 
+   <export>
+    <pr2_controller_interface plugin="${prefix}/my_controller_plugins.xml" />
+  </export>
+
+
+ 
+</package>
+
+
